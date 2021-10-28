@@ -14,7 +14,7 @@ class App extends React.Component {
       pokemons: pokemons,
     };
     this.nextPoke = this.nextPoke.bind(this);
-    this.setFilter = this.setFilter.bind(this)
+    this.setFilter = this.setFilter.bind(this);
   }
 
   nextPoke = () => {
